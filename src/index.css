@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+nav > img {
+  max-width: 100px;
+}
+
+.nav--header {
+  padding-left: 10px;
+  font-size: 2rem;
+}
+
+.toDo--isDone {
+  color: red;
+  text-decoration: line-through;
+}
+
+.todo--section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.todo--input {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo--input > input {
+  font-size: large;
+  min-width: 25rem;
+}
+
+
+.todo-items {
+  background-color: whitesmoke;
+  margin-top: 5px;
+  border-radius: 15px;
+  padding: 3px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  min-width: 25rem;
+  font-weight: 500;
+}
+
+button{
+  margin-left: .5rem;
+  border: .1rem solid #293054;
+  border-radius: 5px;
+  background-color: #293054;
+  color: whitesmoke;
+  padding: 0.1rem .5rem;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: #293054;
+}
+
+ul{
+  padding: 0px;
+}
